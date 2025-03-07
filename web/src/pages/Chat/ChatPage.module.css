@@ -1,0 +1,22 @@
+/* ChatPage.module.css */
+.chatPageContainer {
+    height: calc(100vh - 64px);
+    background-color: var(--mui-palette-background-default);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contactsPanel {
+    border-right: 1px solid var(--mui-palette-divider);
+    height: 100%;
+    overflow-y: hidden; /* 去掉垂直滚动条 */
+    padding-left: 0; /* 向左移动一点 */
+    padding-right: 0;
+    margin-left: 0;
+    width: auto;
+    min-width: 0;
+  }
+  
+  .chatArea {
+    height: 100%;
+  }
